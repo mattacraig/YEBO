@@ -1,0 +1,77 @@
+.bx-wrapper .bx-viewport {
+  background: none;
+  box-shadow: none;
+  border: none;
+  text-align: center;
+}
+
+.bx-wrapper .bx-viewport p {
+  font-size: 1.5em;
+}
+
+.bx-wrapper .bx-viewport .fa-twitter {
+  color: $twitter;
+  font-size: 3rem;
+}
+
+.bx-wrapper .bx-viewport h2 {
+  padding-top: 2.3125rem;
+  padding-bottom: 1.6875rem;
+}
+
+.bx-wrapper .bx-viewport p {
+  font-style: italic;
+  padding-bottom: 6.5rem;
+  padding-left: 11.4375rem;
+  padding-right: 11.4375rem;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: none;
+  border: 1px solid $text-color;
+  transition: $transition;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+  background: $text-color;
+}
+
+
+//===============================
+//  Media Queries
+//===============================
+
+@media screen and(max-width: 1200px) {
+  .three {
+    height: auto;
+  }
+
+  .bx-wrapper .bx-viewport .fa-twitter {
+    display: none;
+  }
+
+  .bx-wrapper .bx-viewport h2 {
+    padding-top: 4.3125rem;
+    padding-bottom: 1.6875rem;
+  }
+
+
+  .bx-wrapper .bx-viewport p {
+    font-style: italic;
+    padding-bottom: 4.5rem;
+    padding-left: 6.4375rem;
+    padding-right: 6.4375rem;
+  }
+
+}
+
+@media screen and(max-width: 768px) {
+
+  .bx-wrapper .bx-viewport p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.125em;
+  }
+
+}

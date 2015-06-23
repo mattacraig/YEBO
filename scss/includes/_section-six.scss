@@ -1,0 +1,60 @@
+.six .section-content {
+  background: $bg-secondary;
+}
+
+.six .section-content h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: $text-color;
+  text-transform: none;
+  font-weight: normal;
+}
+
+form input[type="email"] {
+  width: 23.623rem;
+  height: 4.3125rem;
+  padding-left: 1.75rem;
+  border: 1px solid $text-color;
+  margin: 0;
+}
+
+form input[type="email"]:focus {
+  outline:none;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1.25em;
+  font-family: $font-stack;
+  font-style: italic;
+}
+
+input:-moz-placeholder {
+  font-size: 1.25em;
+  font-family: $font-stack;
+  font-style: italic;
+}
+
+input::-moz-placeholder { 
+  font-size: 1.25em;
+  font-family: $font-stack;
+  font-style: italic;
+}
+
+input:-ms-input-placeholder {  
+  font-size: 1.25em;
+  font-family: $font-stack;
+  font-style: italic;
+}
+
+input[type="submit"] {
+  border: 1px solid $cta;
+  outline: none;
+  background: $cta;
+  height: 4.3125rem;
+  width: 7.875rem;
+  color: $bg-secondary;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: .5rem;
+  cursor: pointer;
+}

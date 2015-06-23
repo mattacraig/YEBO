@@ -1,0 +1,72 @@
+footer {
+  justify-content: space-around;
+  background: $bg-primary;
+  height: 30vh;
+  color: $text-color;
+}
+
+footer a {
+  text-transform: none;
+  color: $text-color;
+}
+
+.address {
+  line-height: 1.125rem;
+}
+
+.address h3 {
+  font-size: 1.006875em;
+  font-weight: 700;
+}
+
+.address li:nth-child(n+2) {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+footer .fa {
+  display: inline-block;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 100%;
+  color: $bg-secondary;
+  text-align: center;
+  line-height: 2.125rem;
+  font-size: 1.3em;
+  margin-right: 0.9375rem;
+}
+
+footer .fa-twitter {
+  background: $twitter;
+}
+
+footer .fa-facebook {
+  background: $facebook;
+}
+
+footer .fa-pinterest {
+  background: $pinterest;
+}
+
+footer p {
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+footer img {
+   padding-left: 0.5625rem;
+}
+
+
+//===============================
+//  Media Queries
+//===============================
+
+@media screen and(max-width: 768px) {
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}

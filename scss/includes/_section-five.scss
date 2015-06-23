@@ -1,0 +1,20 @@
+section.five {
+  height: 20vh;
+  background: $bg-alt;
+}
+
+section.five a {
+  display: inline-block;
+  color: $bg-secondary;
+  width: 18.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  text-align: center;
+  border: 1px solid;
+  transition: $transition;
+}
+
+section.five a:hover {
+  background: $bg-secondary;
+  color: $bg-alt;
+}

@@ -1,0 +1,183 @@
+.two {
+  height: auto;
+  flex-direction: column;
+}
+
+.col,
+.half-jumbo {
+  width: 33.333vw;
+}
+
+//===============================
+//  .row styles
+//===============================
+
+.row {
+  display: flex;
+  width: 100vw;
+}
+
+.row:first-child .content-img {
+  background: url(../../site/img/Layer-11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .row:nth-child(2) .content-img {
+  background: url(../../site/img/Layer-13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row:nth-child(3) .content-img {
+  background: url(../../site/img/Layer-16.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and(max-width: 1200px) {
+
+  .row {
+    flex-direction: column;
+  }
+
+}
+
+
+//===============================
+//  .col styles
+//===============================
+
+.col {
+  height: 600px;
+
+}
+
+@media screen and(max-width: 1200px) {
+
+  .col {
+    width: 100vw;
+  }
+
+}
+
+
+
+//===============================
+//  .content styles
+//===============================
+
+.content {
+  height: 400px;
+  position: relative;
+  z-index: 150;
+}
+
+.content h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.content p {
+  line-height: 2.125rem;
+  text-align: left;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.content img {
+  padding-top: 3.125rem;
+}
+
+.content:after {
+  content: " ";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 0.625rem solid transparent;
+  border-right: 0.625rem solid transparent;
+  border-top: 0.625rem solid $bg-secondary;
+  bottom: -0.625rem;
+  left: 48%;
+}
+
+.content-img {
+  height: 200px;
+}
+
+
+//===============================
+//  .jumbo/.half-jumbo styles
+//===============================
+
+.jumbo {
+  flex-grow: 1;
+  background-size: cover;
+}
+
+.jumbo:first-child {
+  background: url(../../site/img/Img-01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.jumbo {
+  background: url(../../site/img/Layer-12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.half-jumbo:first-child {
+  background: url(../../site/img/Layer-15.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.half-jumbo:last-child {
+  background: url(../../site/img/Layer-14.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+//===============================
+//  Media Queries
+//===============================
+
+@media screen and(max-width: 768px) {
+
+  .col {
+    height: auto;
+  }
+
+  .content {
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  // .content img {
+  //   display: none;
+  // }
+
+  .jumbo,
+  .half-jumbo {
+    height: 50vh;
+  }
+
+  .content p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+}
+
+.six,
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

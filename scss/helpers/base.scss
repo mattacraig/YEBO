@@ -1,0 +1,85 @@
+@import 'reset';
+
+body {
+  font-family: $font-stack;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  transform: translateX(0);
+  transition: $transition;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav li a {
+  color: $nav-link-color;
+  font-size: 0.8125em;
+  transition: $transition;
+
+}
+
+.main-nav li a:hover {
+  color: $cta;
+}
+
+section:nth-child(even) {
+  background: $bg-primary;
+}
+
+h2 {
+  color: $headline-color;
+}
+
+p {
+  color: $text-color;
+  font-size: 1.125em;
+  line-height: 1.875rem;
+}
+
+.section-content,
+.col {
+  text-align: center;
+}
+
+.col p {
+  font-size: 1em;
+}
+
+a,
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  font-weight: 700;
+}
+
+header,
+nav,
+nav ul,
+section,
+.jumbo,
+.half-jumbo,
+.col .mini-img,
+.four .row .col:nth-child(2),
+.col div[class*="img"] a,
+form,
+footer,
+.social-links,
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one,
+.three,
+.six {
+  height: 50vh;
+}
+
+.four {
+  height: 60vh;
+}

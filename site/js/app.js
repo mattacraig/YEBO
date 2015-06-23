@@ -1,0 +1,1 @@
+$(document).on("ready",function(){$(".bxslider").bxSlider(),$(window).on("scroll",function(){var n=$(this).scrollTop();n>=$(this).height()-$("nav").height()?$("nav").addClass("nav-scrolled"):$("nav").removeClass("nav-scrolled")})});

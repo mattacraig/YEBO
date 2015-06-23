@@ -1,0 +1,39 @@
+.section-content {
+  max-width: 67.4375rem;
+  background: $bg-primary;
+}
+
+.section-content h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section-content p {
+  line-height: 2.125rem;
+}
+
+@media screen and(max-width: 1150px) {
+
+  .section-content {
+    max-width: 85%;
+  }
+
+}
+
+@media screen and(max-width: 768px) {
+
+  .one,
+  .section-content {
+    height: auto;
+  }
+
+  .one {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .section-content p {
+    font-size: 1.125em;
+  }
+
+}
