@@ -22,11 +22,7 @@ nav {
 }
 
 .fa-navicon {
-  position: fixed;
-  top: 0;
-  left: 0;
   font-size: 2em;
-  padding: 1rem;
   display: none;
 }
 
@@ -36,6 +32,8 @@ nav {
 
 .nav-scrolled {
   background: $bg-primary;
+  height: 80px;
+  box-shadow: 3px 3px 5px $nav-shadow;
 }
 
 .nav-scrolled li,
@@ -47,46 +45,30 @@ nav {
   color: $cta;
 }
 
+.nav-scrolled li img {
+  height: 3rem;
+  width: 3rem;
+  transition: $height-width-transition;
+}
 
 
-// //========================================
-// //  Applied on Mobile
-// //========================================
-//
-// .nav-reveal {
-//   transform: translateX(65vw);
-// }
-//
-// //========================================
-// //  Media Queries
-// //========================================
-//
-// @media screen and(max-width: 1150px) {
-//
-//   nav {
-//     width: 65vw;
-//     height: 100%;
-//     transform: translateX(-65vw);
-//     display: block;
-//     background: $bg-primary;
-//   }
-//
-//   .main-nav {
-//     flex-direction: column;
-//   }
-//
-//   .main-nav li:nth-child(4) {
-//     order: 1;
-//   }
-//
-//   .main-nav li a {
-//     display: block;
-//     padding-bottom: 2rem;
-//     padding-top: 2rem;
-//   }
-//
-//   .fa-navicon {
-//     display: inline-block;
-//   }
-//
-// }
+.nav-reveal {
+  transform: translateX(-75vw);
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .main-nav li:not(:nth-child(4)) {
+    display: none;
+  }
+
+  .main-nav li:nth-child(4) {
+    margin: auto;
+  }
+
+  .fa-navicon {
+    display: inline-block;
+  }
+
+}

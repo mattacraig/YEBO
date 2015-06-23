@@ -2,15 +2,21 @@ $(document).on('ready', function () {
 
   $('.bxslider').bxSlider();
 
-  $(window).on('scroll', function() {
+  $('.main-wrapper').on('scroll', function() {
 
-    var scroll = $(this).scrollTop();
+    var scroll = $('.main-wrapper').scrollTop();
 
-    if (scroll >= ($(this).height() - $('nav').height())) {
+    if (scroll >= ($('.main-wrapper').height() - $('nav').height())) {
       $('nav').addClass('nav-scrolled');
     } else {
       $('nav').removeClass('nav-scrolled');
     }
+
+  });
+
+  $('.fa-navicon').on('click', function () {
+
+    $('.site-wrapper').toggleClass('nav-reveal');
 
   });
 
