@@ -6,11 +6,11 @@ body {
 }
 
 .main-wrapper {
-  width:100%;
   height: 100vh;
-  overflow-y: scroll;
   overflow-x: hidden;
+  overflow-y: scroll;
   position: relative;
+  width: 100%;
 }
 
 .site-wrapper {
@@ -23,8 +23,8 @@ a {
 
 .main-nav li a {
   color: $nav-link-color;
-  font-size: 0.8125em;
-  transition: $transition;
+  font-size: .8125em;
+  transition: $color-transition;
 
 }
 
@@ -57,9 +57,9 @@ p {
 
 a,
 h2 {
-  text-transform: uppercase;
-  letter-spacing: 0.125rem;
   font-weight: 700;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
 }
 
 header,
@@ -77,8 +77,8 @@ form,
 footer,
 .social-links,
 footer p {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 

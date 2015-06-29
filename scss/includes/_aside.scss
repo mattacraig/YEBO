@@ -1,19 +1,19 @@
 aside {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 75vw;
-  height: 100vh;
-  z-index: 1000;
   background: $bg-primary;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
   transform: translateX(75vw);
+  width: 75vw;
+  z-index: 1000;
 }
 
 .mobile-nav {
   flex-direction: column;
-  width: 100%;
   height: 100%;
   padding-top: 3rem;
+  width: 100%;
 }
 
 .mobile-nav li {
@@ -21,6 +21,6 @@ aside {
 }
 
 .mobile-nav li a {
-  padding: 3rem 0;
   color: $nav-link-color;
+  padding: 3rem 0;
 }

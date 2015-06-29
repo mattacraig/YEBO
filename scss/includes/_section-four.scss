@@ -17,52 +17,48 @@
   height: 50%;
 }
 
-
-
 .img-one {
-  background: url(../../site/img/Layer-19.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url('../../site/img/Layer-19.png');
 }
 
 .img-two {
-  background: url(../../site/img/Layer-21.png);
+  background: url('../../site/img/Layer-21.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-three {
-  background: url(../../site/img/Layer-20.png);
+  background: url('../../site/img/Layer-20.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-four {
-  background: url(../../site/img/Layer-22.png);
+  background: url('../../site/img/Layer-22.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-five {
-  background: url(../../site/img/Layer-25.png);
+  background: url('../../site/img/Layer-25.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-six {
-  background: url(../../site/img/Layer-23.png);
+  background: url('../../site/img/Layer-23.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-seven {
-  background: url(../../site/img/Layer-24.png);
+  background: url('../../site/img/Layer-24.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img-eight {
-  background: url(../../site/img/Layer-26.png);
+  background: url('../../site/img/Layer-26.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,20 +68,20 @@
 }
 
 .col div[class*="img"] a {
+  background: $cta-trans;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  opacity: 0;
   position: absolute;
   top: 0;
-  left: 0;
+  transition: $hover-transition;
   width: 100%;
-  height: 100%;
-  flex-direction: column;
-  background: $cta-trans;
-  opacity: 0;
-  transition: $transition;
 }
 
 .col div[class*="img"] a p {
   color: $bg-secondary;
-  padding-top: 0.875rem;
+  padding-top: .875rem;
 }
 
 .col div[class*="img"] a:hover {

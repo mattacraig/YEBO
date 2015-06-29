@@ -1,17 +1,17 @@
 section.five {
-  height: 20vh;
   background: $bg-alt;
+  height: 20vh;
 }
 
 section.five a {
-  display: inline-block;
+  border: 1px solid;
   color: $bg-secondary;
-  width: 18.75rem;
+  display: inline-block;
   height: 3.125rem;
   line-height: 3.125rem;
   text-align: center;
-  border: 1px solid;
-  transition: $transition;
+  transition: $bg-transition, $color-transition;
+  width: 18.75rem;
 }
 
 section.five a:hover {

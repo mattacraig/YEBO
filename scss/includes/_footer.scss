@@ -1,13 +1,13 @@
 footer {
-  justify-content: space-around;
   background: $bg-primary;
-  height: 30vh;
   color: $text-color;
+  height: 30vh;
+  justify-content: space-around;
 }
 
 footer a {
-  text-transform: none;
   color: $text-color;
+  text-transform: none;
 }
 
 .address {
@@ -20,20 +20,20 @@ footer a {
 }
 
 .address li:nth-child(n+2) {
-  font-size: 0.875em;
+  font-size: .875em;
   font-style: italic;
 }
 
 footer .fa {
-  display: inline-block;
-  width: 2.125rem;
-  height: 2.125rem;
   border-radius: 100%;
   color: $bg-secondary;
-  text-align: center;
-  line-height: 2.125rem;
+  display: inline-block;
   font-size: 1.3em;
-  margin-right: 0.9375rem;
+  height: 2.125rem;
+  line-height: 2.125rem;
+  margin-right: .9375rem;
+  text-align: center;
+  width: 2.125rem;
 }
 
 footer .fa-twitter {
@@ -49,18 +49,18 @@ footer .fa-pinterest {
 }
 
 footer p {
-  font-size: 0.875em;
+  font-size: .875em;
   font-style: italic;
 }
 
 footer img {
-   padding-left: 0.5625rem;
+   padding-left: .5625rem;
 }
 
 
-//===============================
-//  Media Queries
-//===============================
+  //=============================//
+ //  Media Queries              //
+//=============================//
 
 @media screen and(max-width: 768px) {
 

@@ -1,7 +1,7 @@
 .bx-wrapper .bx-viewport {
   background: none;
-  box-shadow: none;
   border: none;
+  box-shadow: none;
   text-align: center;
 }
 
@@ -15,8 +15,8 @@
 }
 
 .bx-wrapper .bx-viewport h2 {
-  padding-top: 2.3125rem;
   padding-bottom: 1.6875rem;
+  padding-top: 2.3125rem;
 }
 
 .bx-wrapper .bx-viewport p {
@@ -29,7 +29,7 @@
 .bx-wrapper .bx-pager.bx-default-pager a {
   background: none;
   border: 1px solid $text-color;
-  transition: $transition;
+  transition: $bg-transition;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:hover {
@@ -51,8 +51,8 @@
   }
 
   .bx-wrapper .bx-viewport h2 {
-    padding-top: 4.3125rem;
     padding-bottom: 1.6875rem;
+    padding-top: 4.3125rem;
   }
 
 
@@ -68,10 +68,10 @@
 @media screen and(max-width: 768px) {
 
   .bx-wrapper .bx-viewport p {
+    font-size: 1.125em;
+    padding-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 2rem;
-    font-size: 1.125em;
   }
 
 }

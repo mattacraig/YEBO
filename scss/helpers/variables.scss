@@ -1,4 +1,14 @@
+  //======================// 
+ //  Font Stack          //
+//======================//
+
 $font-stack: 'Lato', sans-serif;
+
+
+  //======================//
+ //  Colors              //
+//======================//
+
 $nav-link-color: #4d4959;
 $headline-color: #353638;
 $text-color: #848789;
@@ -12,5 +22,13 @@ $bg-alt: #282f35;
 $twitter: #4099ff;
 $facebook: #3b5998;
 $pinterest: #c92228;
-$transition: .3s all;
-$height-width-transition: width .3s, height .3s;
+
+
+  //=======================//
+ //  Transitions          //
+//=======================//
+
+$bg-transition: .3s background;
+$color-transition: .3s color;
+$hover-transition: .3s opacity;
+$height-transition: height .3s;
