@@ -20,4 +20,8 @@ $(document).on('ready', function () {
 
   });
 
+  $('.mobile-nav li a').on('click', function() {
+    $('.site-wrapper').removeClass('nav-reveal');
+  });
+
 });
